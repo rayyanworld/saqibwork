@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+
+  </head>
+  <body>
+
+
+    <!-- json start -->
+ 
+<div id="header">
+
+</div>
+
+
+<script type="module">
+
+  import{header,footer} from './export.js';
+
+  document.getElementById("header").innerHTML=header;
+  document.getElementById("footer").innerHTML=footer;
+
+</script>
+
+  <!-- json end -->
+    
+
+  <!-- crousel start -->
+   <style>
+
+carousel-inner{
+
+ height: 400px;
+
+    }
+   </style>
+
+  
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src=" https://media.licdn.com/dms/image/v2/D5612AQGRUhDVN2cIEQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1723810144211?e=2147483647&v=beta&t=oZNVtNdvvaQhdHB-hlmVCyiO2FvdUyxgGsLqF8OUMUk" class="d-block w-100" alt="..." id="BANNE">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.three.co.uk/content/dam/threedigital/new-dam-structure-temp/device-images/phones/apple/iphone-16-series/iphone-16-pro/1690x1000-apple-pro-banner-image.jpg" class="d-block w-100" alt="..." id="BANNE">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTy8OPq6ON5rYpWNNDCOKVlsmVyQVcSr-ijA&s" class="d-block w-100" alt="..." id="BANNE">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+  
+</div>
+
+   <!-- crousel end -->
+
+   <h2 class="i">IPHONES</h2>
+
+ 
+   <!-- card start -->
+
+
+   <div class="container mt-5s">
+    <div class="row" id="product">
+      
+    </div>
+    </div>
+
+<style>
+
+    img{
+      height: 300px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+
+    .nav-link{
+    margin-left: 150px;
+      color: rgb(255, 255, 255) ;
+      font-size: 18px;
+    }
+    .nav-link:hover{
+      color: black;
+      background-color: white;
+      border-radius: 100px;
+    }
+    
+    .navbar{
+      background-color: rgba(0, 0, 0, 0.884);
+
+    }
+
+  .navbar-brand{
+    color: rgb(0, 255, 85);
+    margin-left: 50px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .navbar-brand:hover{
+    font-size: 22px ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 99px;
+  }
+
+  #BANNE{
+    height: 500px;
+  }
+
+  .card-title{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+    border-radius: 60px;
+  }
+
+  .card-title:hover{
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .card{
+    background-color: black;
+    border-radius: 15px;
+
+  }
+  .I{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0, 0.856);
+    color: white;
+    
+  }
+    
+    </style>
+
+<script>
+  
+var html=""; 
+fetch("dataaa.json")
+.then(data=>data.json())
+.then((data)=>{
+     for(var i of data){
+        html+=`
+       <div class="col">
+      <div class="card" style="width: 18rem;margin-top:22px ">
+  <img src="${i.img}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${i.name}</h5>
+  </div>
+</div>
+</div>
+
+
+        `
+
+     }
+
+     document.getElementById("product").innerHTML=html ;
+
+})
+
+</script>
+
+
+   <!-- card end  -->
+
+
+
+  <div id="footer">
+
+  </div>
+
+  </body>
+</html>
